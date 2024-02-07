@@ -42,7 +42,7 @@
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Recursion" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-02-08T00:23:00+09:00","datePublished":"2024-02-08T00:23:00+09:00","description":"Recursion in algorithms is a method where a problem is solved by breaking it down into smaller instances of the same problem. This approach involves a function calling itself with a smaller input until it reaches a condition known as the base case, which is simple enough to be solved directly. Once the base case is reached, the solution to that base case is used to solve the other instances of the problem, building up to the solution of the original problem.","headline":"Recursion","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/posts/algorithm/"},"url":"http://localhost:4000/posts/algorithm/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-02-08T01:27:12+09:00","datePublished":"2024-02-08T00:23:00+09:00","description":"Recursion in algorithms is a method where a problem is solved by breaking it down into smaller instances of the same problem. This approach involves a function calling itself with a smaller input until it reaches a condition known as the base case, which is simple enough to be solved directly. Once the base case is reached, the solution to that base case is used to solve the other instances of the problem, building up to the solution of the original problem.","headline":"Recursion","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/posts/algorithm/"},"url":"http://localhost:4000/posts/algorithm/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -495,6 +495,29 @@
 
       <!-- lastmod date -->
       
+        <span>
+          Updated
+          <!--
+  Date format snippet
+  See: ${JS_ROOT}/utils/locale-dateime.js
+-->
+
+
+
+
+<time
+  
+  data-ts="1707323232"
+  data-df="ll"
+  
+    data-bs-toggle="tooltip" data-bs-placement="bottom"
+  
+>
+  Feb  8, 2024
+</time>
+
+        </span>
+      
 
       
 
@@ -533,9 +556,9 @@
   class="readtime"
   data-bs-toggle="tooltip"
   data-bs-placement="bottom"
-  title="355 words"
+  title="450 words"
 >
-  <em>1 min</em> read</span>
+  <em>2 min</em> read</span>
 
       </div>
       <!-- .d-flex -->
@@ -604,10 +627,10 @@
 9
 </pre></td><td class="rouge-code"><pre>
 <span class="k">def</span> <span class="nf">printNum</span><span class="p">(</span><span class="n">n</span> <span class="o">=</span> <span class="mi">1</span><span class="p">):</span>
-    <span class="k">if</span> <span class="n">n</span> <span class="o">&gt;</span> <span class="mi">10</span><span class="p">:</span>
-        <span class="k">return</span>
-    <span class="k">else</span><span class="p">:</span>
-        <span class="nf">print</span><span class="p">(</span><span class="n">n</span><span class="p">)</span>
+    <span class="k">if</span> <span class="n">n</span> <span class="o">&gt;</span> <span class="mi">10</span><span class="p">:</span> <span class="c1">#This is a base case
+</span>        <span class="k">return</span>
+    <span class="k">else</span><span class="p">:</span> <span class="c1"># This is a recursive case
+</span>        <span class="nf">print</span><span class="p">(</span><span class="n">n</span><span class="p">)</span>
         <span class="nf">printNum</span><span class="p">(</span><span class="n">n</span> <span class="o">+</span> <span class="mi">1</span><span class="p">)</span>
 
 <span class="nf">printNum</span><span class="p">()</span>
@@ -638,6 +661,8 @@
 </pre></td></tr></tbody></table></code></div></div>
 
 <h2 id="factorial"><span class="me-2">Factorial</span><a href="#factorial" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
+
+<p>factorial is a function that multiplies a number by every number below it till 1</p>
 
 <p>without recursion:</p>
 
@@ -682,12 +707,12 @@
 </pre></td><td class="rouge-code"><pre>
 <span class="k">def</span> <span class="nf">Factorial</span><span class="p">(</span><span class="n">n</span><span class="p">):</span>
     <span class="n">num</span> <span class="o">=</span> <span class="mi">1</span>
-    <span class="k">if</span> <span class="n">n</span> <span class="o">&lt;</span> <span class="mi">0</span><span class="p">:</span>
-        <span class="k">raise</span> <span class="nc">ValueError</span><span class="p">(</span><span class="sh">"</span><span class="s">The input must be a non-negative integer</span><span class="sh">"</span><span class="p">)</span>
-    <span class="k">elif</span> <span class="n">n</span> <span class="o">&lt;=</span> <span class="mi">1</span><span class="p">:</span>
-        <span class="k">return</span> <span class="mi">1</span>
-    <span class="k">else</span><span class="p">:</span>
-        <span class="k">return</span> <span class="n">n</span> <span class="o">*</span> <span class="nc">Factorial</span><span class="p">(</span><span class="n">n</span> <span class="o">-</span> <span class="mi">1</span><span class="p">)</span>
+    <span class="k">if</span> <span class="n">n</span> <span class="o">&lt;</span> <span class="mi">0</span><span class="p">:</span> <span class="c1"># This is a Boundary Case
+</span>        <span class="k">raise</span> <span class="nc">ValueError</span><span class="p">(</span><span class="sh">"</span><span class="s">The input must be a non-negative integer</span><span class="sh">"</span><span class="p">)</span>
+    <span class="k">elif</span> <span class="n">n</span> <span class="o">&lt;=</span> <span class="mi">1</span><span class="p">:</span> <span class="c1"># This is a base case
+</span>        <span class="k">return</span> <span class="mi">1</span>
+    <span class="k">else</span><span class="p">:</span> <span class="c1"># This is a recursive case
+</span>        <span class="k">return</span> <span class="n">n</span> <span class="o">*</span> <span class="nc">Factorial</span><span class="p">(</span><span class="n">n</span> <span class="o">-</span> <span class="mi">1</span><span class="p">)</span>
 
 <span class="nf">print</span><span class="p">(</span><span class="nc">Factorial</span><span class="p">(</span><span class="mi">6</span><span class="p">))</span>
 
@@ -700,6 +725,8 @@
 </pre></td></tr></tbody></table></code></div></div>
 
 <h2 id="fibonacci"><span class="me-2">Fibonacci</span><a href="#fibonacci" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
+
+<p>Fibonacci sequence is a sequence in which each number is the sum of the two preceding ones.</p>
 
 <p>without recursion:</p>
 
@@ -748,18 +775,22 @@
 13
 </pre></td><td class="rouge-code"><pre>
 <span class="k">def</span> <span class="nf">Fibonacci</span><span class="p">(</span><span class="n">n</span><span class="p">):</span>
-    <span class="k">if</span> <span class="n">n</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
-        <span class="k">return</span> <span class="mi">0</span>
-    <span class="k">elif</span> <span class="n">n</span> <span class="o">==</span> <span class="mi">1</span><span class="p">:</span>
-        <span class="k">return</span> <span class="mi">1</span>
-    <span class="k">elif</span> <span class="n">n</span> <span class="o">&gt;</span> <span class="mi">1</span><span class="p">:</span>
-        <span class="k">return</span> <span class="nc">Fibonacci</span><span class="p">(</span><span class="n">n</span> <span class="o">-</span> <span class="mi">1</span><span class="p">)</span> <span class="o">+</span> <span class="nc">Fibonacci</span><span class="p">(</span><span class="n">n</span> <span class="o">-</span> <span class="mi">2</span><span class="p">)</span>
-    <span class="k">else</span><span class="p">:</span>
-        <span class="k">raise</span> <span class="nc">ValueError</span><span class="p">(</span><span class="sh">"</span><span class="s">Negative integer is invalid</span><span class="sh">"</span><span class="p">)</span>
+    <span class="k">if</span> <span class="n">n</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span> <span class="c1"># This is a base case
+</span>        <span class="k">return</span> <span class="mi">0</span>
+    <span class="k">elif</span> <span class="n">n</span> <span class="o">==</span> <span class="mi">1</span><span class="p">:</span> <span class="c1"># This is another base case
+</span>        <span class="k">return</span> <span class="mi">1</span>
+    <span class="k">elif</span> <span class="n">n</span> <span class="o">&gt;</span> <span class="mi">1</span><span class="p">:</span> <span class="c1"># This is a recursive case
+</span>        <span class="k">return</span> <span class="nc">Fibonacci</span><span class="p">(</span><span class="n">n</span> <span class="o">-</span> <span class="mi">1</span><span class="p">)</span> <span class="o">+</span> <span class="nc">Fibonacci</span><span class="p">(</span><span class="n">n</span> <span class="o">-</span> <span class="mi">2</span><span class="p">)</span>
+    <span class="k">else</span><span class="p">:</span> <span class="c1"># This is a boundary case
+</span>        <span class="k">raise</span> <span class="nc">ValueError</span><span class="p">(</span><span class="sh">"</span><span class="s">Negative integer is invalid</span><span class="sh">"</span><span class="p">)</span>
 
 <span class="nf">print</span><span class="p">(</span><span class="nc">Fibonacci</span><span class="p">(</span><span class="mi">6</span><span class="p">))</span>
 
 </pre></td></tr></tbody></table></code></div></div>
+
+<p>“To understand recursion, one must first understand recursion.”</p>
+
+<p>-Stephen Hawking-</p>
 
   </div>
 
