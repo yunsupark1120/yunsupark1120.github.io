@@ -46,10 +46,10 @@ google_site_verification: # fill in to your verification string
 # The end of `jekyll-seo-tag` settings
 
 google_analytics:
-  id: # fill in your Google Analytics ID
+  id: ""# fill in your Google Analytics ID
 
 goatcounter:
-  id: # fill in your Goatcounter ID
+  id: ""# fill in your Goatcounter ID
 
 # Prefer color scheme setting.
 #
@@ -62,7 +62,7 @@ goatcounter:
 #     light  - Use the light color scheme
 #     dark   - Use the dark color scheme
 #
-theme_mode: # [light | dark]
+theme_mode: light
 
 # The CDN endpoint for images.
 # Notice that once it is assigned, the CDN url
