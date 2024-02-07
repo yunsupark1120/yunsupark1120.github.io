@@ -49,9 +49,6 @@ google_site_verification: # fill in to your verification string
 # ↑ --------------------------
 # The end of `jekyll-seo-tag` settings
 
-<<<<<<< HEAD
-google_an# Prefer color scheme setting.
-=======
 google_analytics:
   id: # fill in your Google Analytics ID
 
@@ -59,7 +56,6 @@ goatcounter:
   id: # fill in your Goatcounter ID
 
 # Prefer color scheme setting.
->>>>>>> d29dedc9363aec4a90855608aa46c8731c73bbc4
 #
 # Note: Keep empty will follow the system prefer color by default,
 # and there will be a toggle to switch the theme between dark and light
@@ -172,22 +168,6 @@ defaults:
       layout: page
       permalink: /:title/
   - scope:
-<<<<<<< HEAD
-      path: assets/img/favicons
-    values:
-      swcache: true
-
-    values:
-      comments: false
-  - scope:
-      path: ""
-      type: tabs # see `site.collections`
-    values:
-      layout: page
-      permalink: /:title/
-  - scope:
-=======
->>>>>>> d29dedc9363aec4a90855608aa46c8731c73bbc4
       path: assets/js/dist
     values:
       swcache: true
