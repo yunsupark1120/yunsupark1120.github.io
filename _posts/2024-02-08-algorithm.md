@@ -36,9 +36,9 @@ same task done with recursion:
 ```python
 
 def printNum(n = 1):
-    if n > 10:
+    if n > 10: #This is a base case
         return
-    else:
+    else: # This is a recursive case
         print(n)
         printNum(n + 1)
 
@@ -57,6 +57,8 @@ printNum()
     10
 
 ## Factorial
+
+factorial is a function that multiplies a number by every number below it till 1
 
 without recursion:
 
@@ -77,11 +79,11 @@ with recursion:
 
 def Factorial(n):
     num = 1
-    if n < 0:
+    if n < 0: # This is a Boundary Case
         raise ValueError("The input must be a non-negative integer")
-    elif n <= 1:
+    elif n <= 1: # This is a base case
         return 1
-    else:
+    else: # This is a recursive case
         return n * Factorial(n - 1)
 
 print(Factorial(6))
@@ -91,6 +93,8 @@ print(Factorial(6))
     720
 
 ## Fibonacci
+
+Fibonacci sequence is a sequence in which each number is the sum of the two preceding ones.
 
 without recursion:
 
@@ -111,13 +115,13 @@ print(a_2)
 ```python
 
 def Fibonacci(n):
-    if n == 0:
+    if n == 0: # This is a base case
         return 0
-    elif n == 1:
+    elif n == 1: # This is another base case
         return 1
-    elif n > 1:
+    elif n > 1: # This is a recursive case
         return Fibonacci(n - 1) + Fibonacci(n - 2)
-    else:
+    else: # This is a boundary case
         raise ValueError("Negative integer is invalid")
 
 print(Fibonacci(6))
