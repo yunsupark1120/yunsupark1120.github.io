@@ -1,0 +1,21 @@
+[
+  
+  {
+    "title": "Recursion",
+    "url": "/posts/algorithm/",
+    "categories": "Studies, Algorithm",
+    "tags": "algorithm",
+    "date": "2024-02-08 00:23:00 +0900",
+    
+
+
+
+
+
+    
+    "snippet": "Recursion is a method where the solution to a problem depends on solutions to smaller instances of the same problem.Recursion requires a base case.Without the base case, the fuction will iterate wi...",
+    "content": "Recursion is a method where the solution to a problem depends on solutions to smaller instances of the same problem.Recursion requires a base case.Without the base case, the fuction will iterate without stopping.print 1 to 10 using recursive functionwithout recursion, the code would look like this:for i in range(11):    print(i)012345678910same task done with recursion:def printNum(n = 1):    if n &gt; 10:        return    else:        print(n)        printNum(n + 1)printNum()12345678910Factorialwithout recursion:n = 6num = 1for i in range(n):    num *= n    n -= 1print(num)720with recursion:def Factorial(n):    num = 1    if n &lt; 0:        raise ValueError(\"The input must be a non-negative integer\")    elif n &lt;= 1:        return 1    else:        return n * Factorial(n - 1)print(Factorial(6))720Fibonacciwithout recursion:n = 6a_1 = 0a_2 = 1for i in range(n - 1):    a_1, a_2 = a_2, a_1 + a_2print(a_2)8def Fibonacci(n):    if n == 0:        return 0    elif n == 1:        return 1    elif n &gt; 1:        return Fibonacci(n - 1) + Fibonacci(n - 2)    else:        raise ValueError(\"Negative integer is invalid\")print(Fibonacci(6))"
+  }
+  
+]
+
