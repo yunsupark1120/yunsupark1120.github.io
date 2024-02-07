@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>Yunsu Blog</title>
   <subtitle>Uploading my study progress</subtitle>
-  <updated>2024-02-08T01:10:04+09:00</updated>
+  <updated>2024-02-08T01:16:37+09:00</updated>
   <author>
     <name>Yunsu Park</name>
     <uri>http://localhost:4000/</uri>
@@ -48,33 +48,7 @@
 
 
 
-      Recursion is a method where the solution to a problem depends on solutions to smaller instances of the same problem.
-
-Recursion requires a base case.
-Without the base case, the fuction will iterate without stopping.
-
-print 1 to 10 using recursive function
-
-without recursion, the code would look like this:
-
-for i in range(11):
-    print(i)
-
-
-0
-1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-
-
-same task done with recursion...
+      Recursion in algorithms is a method where a problem is solved by breaking it down into smaller instances of the same problem. This approach involves a function calling itself with a smaller input until it reaches a condition known as the base case, which is simple enough to be solved directly. Once the base case is reached, the solution to that base case is used to solve the other instances of ...
     </summary>
   
 

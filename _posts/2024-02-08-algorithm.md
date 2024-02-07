@@ -5,10 +5,10 @@ categories: [Studies, Algorithm]
 tags: [algorithm] # TAG names should always be lowercase
 ---
 
-Recursion is a method where the solution to a problem depends on solutions to smaller instances of the same problem.
+Recursion in algorithms is a method where a problem is solved by breaking it down into smaller instances of the same problem. This approach involves a function calling itself with a smaller input until it reaches a condition known as the base case, which is simple enough to be solved directly. Once the base case is reached, the solution to that base case is used to solve the other instances of the problem, building up to the solution of the original problem.
 
-Recursion requires a base case.
-Without the base case, the fuction will iterate without stopping.
+1. The base case is the condition to stop the recursion
+2. The recursive case is the part where the function calls on itself.
 
 ## print 1 to 10 using recursive function
 
