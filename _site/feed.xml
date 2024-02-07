@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>Yunsu Blog</title>
   <subtitle>Uploading my study progress</subtitle>
-  <updated>2024-02-08T01:31:16+09:00</updated>
+  <updated>2024-02-08T01:34:58+09:00</updated>
   <author>
     <name>Yunsu Park</name>
     <uri>http://localhost:4000/</uri>
@@ -24,7 +24,7 @@
     <link href="http://localhost:4000/posts/algorithm/" rel="alternate" type="text/html" title="Recursion" />
     <published>2024-02-08T00:23:00+09:00</published>
   
-    <updated>2024-02-08T01:27:12+09:00</updated>
+    <updated>2024-02-08T01:31:45+09:00</updated>
   
     <id>http://localhost:4000/posts/algorithm/</id>
     <content src="http://localhost:4000/posts/algorithm/" />
