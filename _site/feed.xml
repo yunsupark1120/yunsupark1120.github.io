@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>Yunsu Blog</title>
   <subtitle>Uploading my study progress</subtitle>
-  <updated>2024-02-08T13:48:38+09:00</updated>
+  <updated>2024-02-08T15:51:43+09:00</updated>
   <author>
     <name>Yunsu Park</name>
     <uri>http://localhost:4000/</uri>
@@ -56,7 +56,9 @@ Why Python?
 
 Interpreter V.S. Compiler
 
-Computers fundamentally only understand languages written with 0 and 1, often referred to as “Machine Language”. N...
+
+
+Computers fundamentally only understand languages written with 0 and 1, often referred to as “Machine Language”....
     </summary>
   
 
