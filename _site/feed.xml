@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>Yunsu Blog</title>
   <subtitle>Uploading my study progress</subtitle>
-  <updated>2024-02-08T15:51:43+09:00</updated>
+  <updated>2024-02-09T13:05:33+09:00</updated>
   <author>
     <name>Yunsu Park</name>
     <uri>http://localhost:4000/</uri>
@@ -24,7 +24,7 @@
     <link href="http://localhost:4000/posts/Chapter1/" rel="alternate" type="text/html" title="Python Tutorial - Chapter 1" />
     <published>2024-02-08T13:23:00+09:00</published>
   
-    <updated>2024-02-08T13:23:00+09:00</updated>
+    <updated>2024-02-08T15:53:07+09:00</updated>
   
     <id>http://localhost:4000/posts/Chapter1/</id>
     <content src="http://localhost:4000/posts/Chapter1/" />
@@ -80,7 +80,7 @@ Computers fundamentally only understand languages written with 0 and 1, often re
 
   
     
-    <category term="Studies" />
+    <category term="Programming" />
     
     <category term="Algorithm" />
     
