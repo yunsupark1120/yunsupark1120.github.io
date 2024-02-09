@@ -1,9 +1,26 @@
 [
   
   {
+    "title": "Python Tutorial - Chapter 1",
+    "url": "/posts/Chapter1/",
+    "categories": "Python Tutorials",
+    "tags": "python",
+    "date": "2024-02-08 13:23:00 +0900",
+    
+
+
+
+
+
+    
+    "snippet": "Welcome to Python Tutorial!There are many Human Languages, such as English, Korean, Spanish, Chinese, etc.Just Like humans, computers also have different languages for communication, such as C/C++,...",
+    "content": "Welcome to Python Tutorial!There are many Human Languages, such as English, Korean, Spanish, Chinese, etc.Just Like humans, computers also have different languages for communication, such as C/C++, Assembly, Java, JavaScript, and Python.Why Python?Interpreter V.S. CompilerComputers fundamentally only understand languages written with 0 and 1, often referred to as “Machine Language”. No matter what language programmers code in, there must be a process of converting that into machine language. This conversion is done by either an interpreter or a compiler.Two popular examples of these types of languages are C (a compiled language) and Python (an interpreted language). Compiled languages like C usually perform faster, but they can be more difficult to code and debug.Python, on the other hand, is an interpreted language. This means that it is relatively easy to write and fix errors in Python. The interpreter executes the code line by line, which allows for more immediate feedback and easier debugging. This is one of the reasons why Python is popular for beginners and for rapid development.Easy to LearnPython is easy to learn for several reasons.      Readability: Python’s syntax is designed to be readable and straightforward. This makes it easier for beginners to pick up the language and understand what the code is doing.        High-level language: Python is a high-level language, meaning it abstracts many of the complex details of the computer. This allows beginners to start coding without needing to understand complex computer science concepts.        Large Standard Library: Python comes with a large standard library that covers many areas, from web development to machine learning. This means beginners can do a lot with Python without needing to understand or use external libraries.        Strong Community: Python is an open source and has a large and supportive community. This means there are plenty of resources available for learning and troubleshooting, from online tutorials to forums and Q&amp;A websites.  For example, these are the codes for printing “Hello World!” in three different languages.C++#include &lt;iostream&gt;using namespace std;int main() {    cout &lt;&lt; \"Hello World!\";    return 0;}Javapublic class HelloWorld {    public static void main(String[] args) {        System.out.println(\"Hello World!\");    }}Pythonprint(\"Hello World!\")Wide UsecasesPython has gained its popularity because of its wide range of domains.Python is useful for these tasks:  Web development  Data Science / Data Analysis  Machine Learning  Artificial IntelligencePopular programs developed with Python:  YouTube  Google  Instagram  Spotify  AmazonInstallationWe will be using Jupyter Notebook for this tutorial.What is a Jupyter Notebook?Jupyter Notebook is an interactive web application for creating and sharing computational documents.It is useful to write and run Python codes on a web environment without sophisticated setup process.Install AnacondaTo setup the device, please visit the website andInstall Anaconda.Anaconda is a useful tool that automatically install all the softwares required for writing Python code in Jupyter Notebook.Launch Jupyter NotebookAfter the installation is completed, open the Anaconda panel and find Jupyter Notebook to launch the program.Choose DirectoryGo to the directory where you want to store the tutorial materials.Click new button on the top right corner, and choose Python 3 kernal.Writing the first codeNow, let’s write our first Python code.In the first code cell, type the following codeprint(\"Hello, Python!\")and press shift + enter to run the code.Hello, Python!If you see the text printed, the software is successfully installed.“The only way to learn a new programming language is by writing programs in it.”- Dennis Ritchie"
+  },
+  
+  {
     "title": "Recursion",
-    "url": "/posts/algorithm/",
-    "categories": "Studies, Algorithm",
+    "url": "/posts/Recursion/",
+    "categories": "Programming, Algorithm",
     "tags": "algorithm",
     "date": "2024-02-08 00:23:00 +0900",
     
