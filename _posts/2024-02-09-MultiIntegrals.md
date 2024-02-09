@@ -4,7 +4,7 @@ date: 2024-02-09 00:23
 categories: [Mathematics, Calculus]
 tags: [vector, integral, math, multivariable, calculus] # TAG names should always be lowercase
 math: true
-image: assets/img/algorithm/Background.jpg
+image: assets/img/Calculus/Background.jpg
 ---
 
 ## Introduction
