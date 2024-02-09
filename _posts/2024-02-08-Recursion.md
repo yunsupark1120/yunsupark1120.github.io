@@ -2,7 +2,8 @@
 title: Recursion
 date: 2024-02-08 00:23
 categories: [Programming, Algorithm]
-tags: [algorithm] # TAG names should always be lowercase
+tags: [algorithm, programming, python] # TAG names should always be lowercase
+image: assets/img/algorithm/Background.jpg
 ---
 
 Recursion in algorithms is a method where a problem is solved by breaking it down into smaller instances of the same problem. This approach involves a function calling itself with a smaller input until it reaches a condition known as the base case, which is simple enough to be solved directly. Once the base case is reached, the solution to that base case is used to solve the other instances of the problem, building up to the solution of the original problem.

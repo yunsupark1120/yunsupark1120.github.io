@@ -1,6 +1,23 @@
 [
   
   {
+    "title": "Big O Notation",
+    "url": "/posts/BigO/",
+    "categories": "Programming, Algorithm",
+    "tags": "algorithm, programming, math",
+    "date": "2024-02-09 00:23:00 +0900",
+    
+
+
+
+
+
+    
+    "snippet": "In this post, we’ll explore the concept of Big O notation, common time complexities, and visualize how these complexities grow as the input size increases.DefinitionBig O notation is a mathematical...",
+    "content": "In this post, we’ll explore the concept of Big O notation, common time complexities, and visualize how these complexities grow as the input size increases.DefinitionBig O notation is a mathematical notation that describes the limiting behavior of a function when the argument tends towards a particular value or infinity. In computer science, it is used to analyze the efficiency of algorithms and estimate their worst-case time complexity.Formal DefinitionLet $f(n)$ and $g(n)$ be functions mapping positive integers to positive real numbers. We say that $f(n)$ is $O(g(n))$, read as “f of n is big O of g of n”, if and only if there exist positive constants $c$ and $n_0$ such that:for all $n \\geq n_0$, \\(f(n) \\leq c \\cdot g(n)\\)This means that $f(n) = O(g(n))$ indicates that the growth rate of $f(n)$ is bounded above by the growth rate of $g(n)$ up to a constant factor, for sufficiently large $n$. This notation is used to classify algorithms according to their running time or space requirements in the worst-case scenario.Common Time Complexities"
+  },
+  
+  {
     "title": "Python Tutorial - Chapter 1",
     "url": "/posts/Chapter1/",
     "categories": "Python Tutorials",
@@ -21,24 +38,7 @@
     "title": "Recursion",
     "url": "/posts/Recursion/",
     "categories": "Programming, Algorithm",
-    "tags": "algorithm",
-    "date": "2024-02-08 00:23:00 +0900",
-    
-
-
-
-
-
-    
-    "snippet": "Recursion in algorithms is a method where a problem is solved by breaking it down into smaller instances of the same problem. This approach involves a function calling itself with a smaller input u...",
-    "content": "Recursion in algorithms is a method where a problem is solved by breaking it down into smaller instances of the same problem. This approach involves a function calling itself with a smaller input until it reaches a condition known as the base case, which is simple enough to be solved directly. Once the base case is reached, the solution to that base case is used to solve the other instances of the problem, building up to the solution of the original problem.  The base case is the condition to stop the recursion  The recursive case is the part where the function calls on itself.print 1 to 10 using recursive functionwithout recursion, the code would look like this:for i in range(11):    print(i)012345678910same task done with recursion:def printNum(n = 1):    if n &gt; 10: #This is a base case        return    else: # This is a recursive case        print(n)        printNum(n + 1)printNum()12345678910Factorialfactorial is a function that multiplies a number by every number below it till 1without recursion:n = 6num = 1for i in range(n):    num *= n    n -= 1print(num)720with recursion:def Factorial(n):    num = 1    if n &lt; 0: # This is a Boundary Case        raise ValueError(\"The input must be a non-negative integer\")    elif n &lt;= 1: # This is a base case        return 1    else: # This is a recursive case        return n * Factorial(n - 1)print(Factorial(6))720FibonacciFibonacci sequence is a sequence in which each number is the sum of the two preceding ones.without recursion:n = 6a_1 = 0a_2 = 1for i in range(n - 1):    a_1, a_2 = a_2, a_1 + a_2print(a_2)8def Fibonacci(n):    if n == 0: # This is a base case        return 0    elif n == 1: # This is another base case        return 1    elif n &gt; 1: # This is a recursive case        return Fibonacci(n - 1) + Fibonacci(n - 2)    else: # This is a boundary case        raise ValueError(\"Negative integer is invalid\")print(Fibonacci(6))“To understand recursion, one must first understand recursion.”-Stephen Hawking-"
-  },
-  
-  {
-    "title": "Big O Notation",
-    "url": "/posts/BigO/",
-    "categories": "Programming, Algorithm",
-    "tags": "algorithm",
+    "tags": "algorithm, programming, python",
     "date": "2024-02-08 00:23:00 +0900",
     
 
