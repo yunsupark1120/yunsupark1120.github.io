@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>Yunsu Blog</title>
   <subtitle>Uploading my study progress</subtitle>
-  <updated>2024-02-09T15:17:48+09:00</updated>
+  <updated>2024-02-09T16:22:01+09:00</updated>
   <author>
     <name>Yunsu Park</name>
     <uri>http://localhost:4000/</uri>
@@ -20,11 +20,57 @@
 
   
   <entry>
+    <title>Vector Integral Theorems Summary</title>
+    <link href="http://localhost:4000/posts/MultiIntegrals/" rel="alternate" type="text/html" title="Vector Integral Theorems Summary" />
+    <published>2024-02-09T00:23:00+09:00</published>
+  
+    <updated>2024-02-09T00:23:00+09:00</updated>
+  
+    <id>http://localhost:4000/posts/MultiIntegrals/</id>
+    <content src="http://localhost:4000/posts/MultiIntegrals/" />
+    <author>
+      <name>Yunsu Park</name>
+    </author>
+
+  
+    
+    <category term="Mathematics" />
+    
+    <category term="Calculus" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      Introduction
+
+In this post, I will be introducing the extension of the fundamental theorem of calculus, and the summary of the useful theorems for integrals in vector field: Green’s Theorem, Divergence Theorem, and Stokes’ Theorem
+
+Prerequsites:
+
+
+  Undersatnding in multivariable integrals
+  Understanding in Vector Field
+  Understanding in gradient of multivarible functions
+  Understanding in C...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
     <title>Big O Notation</title>
     <link href="http://localhost:4000/posts/BigO/" rel="alternate" type="text/html" title="Big O Notation" />
     <published>2024-02-09T00:23:00+09:00</published>
   
-    <updated>2024-02-09T13:56:35+09:00</updated>
+    <updated>2024-02-09T15:18:08+09:00</updated>
   
     <id>http://localhost:4000/posts/BigO/</id>
     <content src="http://localhost:4000/posts/BigO/" />
