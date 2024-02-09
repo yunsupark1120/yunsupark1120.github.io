@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>Yunsu Blog</title>
   <subtitle>Uploading my study progress</subtitle>
-  <updated>2024-02-09T20:54:21+09:00</updated>
+  <updated>2024-02-09T21:34:21+09:00</updated>
   <author>
     <name>Yunsu Park</name>
     <uri>http://localhost:4000/</uri>
@@ -24,7 +24,7 @@
     <link href="http://localhost:4000/posts/Chapter1/" rel="alternate" type="text/html" title="Python Tutorial - Chapter 1" />
     <published>2024-02-09T19:15:00+09:00</published>
   
-    <updated>2024-02-09T19:15:00+09:00</updated>
+    <updated>2024-02-09T20:55:46+09:00</updated>
   
     <id>http://localhost:4000/posts/Chapter1/</id>
     <content src="http://localhost:4000/posts/Chapter1/" />
@@ -48,6 +48,10 @@
 
       Welcome back to Python Tutorial!
 
+Click to download a Jupyter Notebook for this chapter!
+
+Click here to view all tutorial materials
+
 Topics covered in this chapter:
 
 
@@ -60,9 +64,7 @@ Topics covered in this chapter:
 Python Variables
 
 Variables are containers for storing data values.
-Python is a dynamically typed language, which means that you don’t have to declare the type of a variable when you create one.
-
-Variables are created when you assign a value to it...
+Python is a dynamically typed language, which means that you don’t have to decla...
     </summary>
   
 
