@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>Yunsu Blog</title>
   <subtitle>Uploading my study progress</subtitle>
-  <updated>2024-02-09T13:56:00+09:00</updated>
+  <updated>2024-02-09T13:56:35+09:00</updated>
   <author>
     <name>Yunsu Park</name>
     <uri>http://localhost:4000/</uri>
@@ -110,7 +110,7 @@ Computers fundamentally only understand languages written with 0 and 1, often re
     <link href="http://localhost:4000/posts/Recursion/" rel="alternate" type="text/html" title="Recursion" />
     <published>2024-02-08T00:23:00+09:00</published>
   
-    <updated>2024-02-09T13:21:28+09:00</updated>
+    <updated>2024-02-09T13:56:35+09:00</updated>
   
     <id>http://localhost:4000/posts/Recursion/</id>
     <content src="http://localhost:4000/posts/Recursion/" />
