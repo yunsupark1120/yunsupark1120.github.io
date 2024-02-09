@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>Yunsu Blog</title>
   <subtitle>Uploading my study progress</subtitle>
-  <updated>2024-02-09T13:56:35+09:00</updated>
+  <updated>2024-02-09T15:17:48+09:00</updated>
   <author>
     <name>Yunsu Park</name>
     <uri>http://localhost:4000/</uri>
@@ -24,7 +24,7 @@
     <link href="http://localhost:4000/posts/BigO/" rel="alternate" type="text/html" title="Big O Notation" />
     <published>2024-02-09T00:23:00+09:00</published>
   
-    <updated>2024-02-09T13:15:11+09:00</updated>
+    <updated>2024-02-09T13:56:35+09:00</updated>
   
     <id>http://localhost:4000/posts/BigO/</id>
     <content src="http://localhost:4000/posts/BigO/" />
@@ -50,9 +50,13 @@
 
       In this post, we’ll explore the concept of Big O notation, common time complexities, and visualize how these complexities grow as the input size increases.
 
-Definition
+Introduction
 
-Big O notation is a mathematical notation that describes the limiting behavior of a function when the argument tends towards a particular value or infinity. In computer science, it is used to analyze the efficiency of algorithms...
+Time and Space Complexity
+
+Algorithms are crucial part of any program, and good a programmer chooses the most efficient algorithm to solve a problem.
+
+To analyze the efficiency of an algorithm, there are two big considerations...
     </summary>
   
 
