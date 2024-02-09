@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>Yunsu Blog</title>
   <subtitle>Uploading my study progress</subtitle>
-  <updated>2024-02-09T19:35:47+09:00</updated>
+  <updated>2024-02-09T20:54:21+09:00</updated>
   <author>
     <name>Yunsu Park</name>
     <uri>http://localhost:4000/</uri>
@@ -46,8 +46,23 @@
 
 
 
-      Welcome Back to Python Tutorial!
+      Welcome back to Python Tutorial!
 
+Topics covered in this chapter:
+
+
+  variables
+  data types and operations
+  print() statement
+  input() statement
+
+
+Python Variables
+
+Variables are containers for storing data values.
+Python is a dynamically typed language, which means that you don’t have to declare the type of a variable when you create one.
+
+Variables are created when you assign a value to it...
     </summary>
   
 
