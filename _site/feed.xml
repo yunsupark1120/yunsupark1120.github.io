@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>Yunsu Blog</title>
   <subtitle>Uploading my study progress</subtitle>
-  <updated>2024-02-09T13:07:12+09:00</updated>
+  <updated>2024-02-09T13:17:57+09:00</updated>
   <author>
     <name>Yunsu Park</name>
     <uri>http://localhost:4000/</uri>
@@ -24,7 +24,7 @@
     <link href="http://localhost:4000/posts/Chapter1/" rel="alternate" type="text/html" title="Python Tutorial - Chapter 1" />
     <published>2024-02-08T13:23:00+09:00</published>
   
-    <updated>2024-02-08T15:53:07+09:00</updated>
+    <updated>2024-02-09T13:07:12+09:00</updated>
   
     <id>http://localhost:4000/posts/Chapter1/</id>
     <content src="http://localhost:4000/posts/Chapter1/" />
@@ -70,10 +70,46 @@ Computers fundamentally only understand languages written with 0 and 1, often re
     <link href="http://localhost:4000/posts/Recursion/" rel="alternate" type="text/html" title="Recursion" />
     <published>2024-02-08T00:23:00+09:00</published>
   
-    <updated>2024-02-08T00:23:00+09:00</updated>
+    <updated>2024-02-09T13:15:11+09:00</updated>
   
     <id>http://localhost:4000/posts/Recursion/</id>
     <content src="http://localhost:4000/posts/Recursion/" />
+    <author>
+      <name>Yunsu Park</name>
+    </author>
+
+  
+    
+    <category term="Programming" />
+    
+    <category term="Algorithm" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      Recursion in algorithms is a method where a problem is solved by breaking it down into smaller instances of the same problem. This approach involves a function calling itself with a smaller input until it reaches a condition known as the base case, which is simple enough to be solved directly. Once the base case is reached, the solution to that base case is used to solve the other instances of ...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>Big O Notation</title>
+    <link href="http://localhost:4000/posts/BigO/" rel="alternate" type="text/html" title="Big O Notation" />
+    <published>2024-02-08T00:23:00+09:00</published>
+  
+    <updated>2024-02-09T13:15:11+09:00</updated>
+  
+    <id>http://localhost:4000/posts/BigO/</id>
+    <content src="http://localhost:4000/posts/BigO/" />
     <author>
       <name>Yunsu Park</name>
     </author>
