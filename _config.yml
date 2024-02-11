@@ -32,7 +32,6 @@ social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
   name: Yunsu Park # change to your full name
-  name2: Shin Mo
   email: yunsupark1120@gmail.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
@@ -40,6 +39,9 @@ social:
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
     # - https://www.linkedin.com/in/username
+  name2: Shin Mo
+  links2:
+    - https://tetris.com/play-tetris
 
 google_site_verification: # fill in to your verification string
 

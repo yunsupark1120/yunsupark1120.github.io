@@ -4,16 +4,16 @@
   <id>http://localhost:4000/</id>
   <title>Yunsu Blog</title>
   <subtitle>Uploading my study progress</subtitle>
-  <updated>2024-02-11T21:11:47+09:00</updated>
+  <updated>2024-02-11T21:22:53+09:00</updated>
   <author>
-    <name>Yunsu Park</name>
+    <name>Shin Mo</name>
     <uri>http://localhost:4000/</uri>
   </author>
   <link rel="self" type="application/atom+xml" href="http://localhost:4000/feed.xml"/>
   <link rel="alternate" type="text/html" hreflang="en"
     href="http://localhost:4000/"/>
   <generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator>
-  <rights> © 2024 Yunsu Park </rights>
+  <rights> © 2024 Shin Mo </rights>
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
@@ -24,12 +24,12 @@
     <link href="http://localhost:4000/posts/Euler_Eq/" rel="alternate" type="text/html" title="Euler&amp;apos;s Formula" />
     <published>2024-02-11T18:03:00+09:00</published>
   
-    <updated>2024-02-11T18:03:00+09:00</updated>
+    <updated>2024-02-11T21:19:40+09:00</updated>
   
     <id>http://localhost:4000/posts/Euler_Eq/</id>
     <content src="http://localhost:4000/posts/Euler_Eq/" />
     <author>
-      <name>Yunsu Park</name>
+      <name>Shin Mo</name>
     </author>
 
   
@@ -71,7 +71,7 @@ Prereq...
     <id>http://localhost:4000/posts/Chapter1/</id>
     <content src="http://localhost:4000/posts/Chapter1/" />
     <author>
-      <name>Yunsu Park</name>
+      <name>Shin Mo</name>
     </author>
 
   
@@ -123,7 +123,7 @@ Python is a dynamically typed language, which means that you don’t have to dec
     <id>http://localhost:4000/posts/MultiIntegrals/</id>
     <content src="http://localhost:4000/posts/MultiIntegrals/" />
     <author>
-      <name>Yunsu Park</name>
+      <name>Shin Mo</name>
     </author>
 
   
@@ -169,7 +169,7 @@ Prerequsites:
     <id>http://localhost:4000/posts/BigO/</id>
     <content src="http://localhost:4000/posts/BigO/" />
     <author>
-      <name>Yunsu Park</name>
+      <name>Shin Mo</name>
     </author>
 
   
@@ -213,7 +213,7 @@ To analyze the efficiency of an algorithm, there are two big considerations...
     <id>http://localhost:4000/posts/Chapter0/</id>
     <content src="http://localhost:4000/posts/Chapter0/" />
     <author>
-      <name>Yunsu Park</name>
+      <name>Shin Mo</name>
     </author>
 
   
