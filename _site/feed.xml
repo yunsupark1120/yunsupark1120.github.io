@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>Yunsu Blog</title>
   <subtitle>Uploading my study progress</subtitle>
-  <updated>2024-02-09T21:34:21+09:00</updated>
+  <updated>2024-02-11T21:11:47+09:00</updated>
   <author>
     <name>Yunsu Park</name>
     <uri>http://localhost:4000/</uri>
@@ -20,11 +20,53 @@
 
   
   <entry>
+    <title>Euler's Formula</title>
+    <link href="http://localhost:4000/posts/Euler_Eq/" rel="alternate" type="text/html" title="Euler&amp;apos;s Formula" />
+    <published>2024-02-11T18:03:00+09:00</published>
+  
+    <updated>2024-02-11T18:03:00+09:00</updated>
+  
+    <id>http://localhost:4000/posts/Euler_Eq/</id>
+    <content src="http://localhost:4000/posts/Euler_Eq/" />
+    <author>
+      <name>Yunsu Park</name>
+    </author>
+
+  
+    
+    <category term="Mathematics" />
+    
+    <category term="Calculus" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      Introduction
+
+In this post, I will be introducing one of the most famous formulas in mathematics, Euler’s Formula. Euler’s Formula is a mathematical formula that establishes the fundamental relationship between the trigonometric functions and the complex exponential function. It is often cited as an example of deep mathematical beauty.
+
+Having completed up to Calculus II is recommended.
+
+Prereq...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
     <title>Python Tutorial - Chapter 1</title>
     <link href="http://localhost:4000/posts/Chapter1/" rel="alternate" type="text/html" title="Python Tutorial - Chapter 1" />
     <published>2024-02-09T19:15:00+09:00</published>
   
-    <updated>2024-02-09T20:55:46+09:00</updated>
+    <updated>2024-02-10T23:54:48+09:00</updated>
   
     <id>http://localhost:4000/posts/Chapter1/</id>
     <content src="http://localhost:4000/posts/Chapter1/" />
@@ -201,42 +243,6 @@ Interpreter V.S. Compiler
 
 
 Computers fundamentally only understand languages written with 0 and 1, often referred to as “Machine Language”....
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>Recursion</title>
-    <link href="http://localhost:4000/posts/Recursion/" rel="alternate" type="text/html" title="Recursion" />
-    <published>2024-02-08T00:23:00+09:00</published>
-  
-    <updated>2024-02-09T13:56:35+09:00</updated>
-  
-    <id>http://localhost:4000/posts/Recursion/</id>
-    <content src="http://localhost:4000/posts/Recursion/" />
-    <author>
-      <name>Yunsu Park</name>
-    </author>
-
-  
-    
-    <category term="Programming" />
-    
-    <category term="Algorithm" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      Recursion in algorithms is a method where a problem is solved by breaking it down into smaller instances of the same problem. This approach involves a function calling itself with a smaller input until it reaches a condition known as the base case, which is simple enough to be solved directly. Once the base case is reached, the solution to that base case is used to solve the other instances of ...
     </summary>
   
 
