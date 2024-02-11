@@ -6,6 +6,8 @@ tags: [algorithm, programming, python] # TAG names should always be lowercase
 image: assets/img/algorithm/Background.jpg
 ---
 
+**This is a first post in Algorithm series.**
+
 Recursion in algorithms is a method where a problem is solved by breaking it down into smaller instances of the same problem. This approach involves a function calling itself with a smaller input until it reaches a condition known as the base case, which is simple enough to be solved directly. Once the base case is reached, the solution to that base case is used to solve the other instances of the problem, building up to the solution of the original problem.
 
 1. The base case is the condition to stop the recursion
