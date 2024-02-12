@@ -4,16 +4,16 @@
   <id>http://localhost:4000/</id>
   <title>Yunsu Blog</title>
   <subtitle>Uploading my study progress</subtitle>
-  <updated>2024-02-11T21:38:55+09:00</updated>
+  <updated>2024-02-12T23:44:37+09:00</updated>
   <author>
-    <name>Shin Mo</name>
+    <name>Yunsu Park</name>
     <uri>http://localhost:4000/</uri>
   </author>
   <link rel="self" type="application/atom+xml" href="http://localhost:4000/feed.xml"/>
   <link rel="alternate" type="text/html" hreflang="en"
     href="http://localhost:4000/"/>
   <generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator>
-  <rights> © 2024 Shin Mo </rights>
+  <rights> © 2024 Yunsu Park </rights>
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
@@ -29,7 +29,7 @@
     <id>http://localhost:4000/posts/Euler_Eq/</id>
     <content src="http://localhost:4000/posts/Euler_Eq/" />
     <author>
-      <name>Shin Mo</name>
+      <name>Yunsu Park</name>
     </author>
 
   
@@ -71,7 +71,7 @@ Prereq...
     <id>http://localhost:4000/posts/Chapter1/</id>
     <content src="http://localhost:4000/posts/Chapter1/" />
     <author>
-      <name>Shin Mo</name>
+      <name>Yunsu Park</name>
     </author>
 
   
@@ -114,6 +114,89 @@ Python is a dynamically typed language, which means that you don’t have to dec
 
   
   <entry>
+    <title>Linked List</title>
+    <link href="http://localhost:4000/posts/linkedList/" rel="alternate" type="text/html" title="Linked List" />
+    <published>2024-02-09T00:23:00+09:00</published>
+  
+    <updated>2024-02-09T00:23:00+09:00</updated>
+  
+    <id>http://localhost:4000/posts/linkedList/</id>
+    <content src="http://localhost:4000/posts/linkedList/" />
+    <author>
+      <name>Yunsu Park</name>
+    </author>
+
+  
+    
+    <category term="Programming" />
+    
+    <category term="Data Structure" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      This is a second post in Data Structure series.
+
+Introduction
+
+A linked list is a linear data structure where each element is a separate object.
+A linked list, like an array, can store, add, remove, and search for data. However, an element in a linked list is not stored continuously in memory and does not have an index.
+
+A linked list stores data in node. Each node consist of two parts: data an...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>Array</title>
+    <link href="http://localhost:4000/posts/array/" rel="alternate" type="text/html" title="Array" />
+    <published>2024-02-09T00:23:00+09:00</published>
+  
+    <updated>2024-02-09T00:23:00+09:00</updated>
+  
+    <id>http://localhost:4000/posts/array/</id>
+    <content src="http://localhost:4000/posts/array/" />
+    <author>
+      <name>Yunsu Park</name>
+    </author>
+
+  
+    
+    <category term="Programming" />
+    
+    <category term="Data Structure" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      This is a first post in Data Structure series.
+
+Introduction
+
+An array is a collection of items stored at contiguous memory locations. The idea is to store multiple items of the same type together. This makes it easier to calculate the position of each element by simply adding an offset to a base value, i.e., the memory location of the first element of the array (generally denoted by the name o...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
     <title>Vector Integral Theorems Summary</title>
     <link href="http://localhost:4000/posts/MultiIntegrals/" rel="alternate" type="text/html" title="Vector Integral Theorems Summary" />
     <published>2024-02-09T00:23:00+09:00</published>
@@ -123,7 +206,7 @@ Python is a dynamically typed language, which means that you don’t have to dec
     <id>http://localhost:4000/posts/MultiIntegrals/</id>
     <content src="http://localhost:4000/posts/MultiIntegrals/" />
     <author>
-      <name>Shin Mo</name>
+      <name>Yunsu Park</name>
     </author>
 
   
@@ -153,96 +236,6 @@ Prerequsites:
   Understanding in Vector Field
   Understanding in gradient of multivarible functions
   Understanding in C...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>Big O Notation</title>
-    <link href="http://localhost:4000/posts/BigO/" rel="alternate" type="text/html" title="Big O Notation" />
-    <published>2024-02-09T00:23:00+09:00</published>
-  
-    <updated>2024-02-09T16:24:42+09:00</updated>
-  
-    <id>http://localhost:4000/posts/BigO/</id>
-    <content src="http://localhost:4000/posts/BigO/" />
-    <author>
-      <name>Shin Mo</name>
-    </author>
-
-  
-    
-    <category term="Programming" />
-    
-    <category term="Algorithm" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      In this post, we’ll explore the concept of Big O notation, common time complexities, and visualize how these complexities grow as the input size increases.
-
-Introduction
-
-Time and Space Complexity
-
-Algorithms are crucial part of any program, and good a programmer chooses the most efficient algorithm to solve a problem.
-
-To analyze the efficiency of an algorithm, there are two big considerations...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>Python Tutorial - Chapter 0</title>
-    <link href="http://localhost:4000/posts/Chapter0/" rel="alternate" type="text/html" title="Python Tutorial - Chapter 0" />
-    <published>2024-02-08T13:23:00+09:00</published>
-  
-    <updated>2024-02-08T13:23:00+09:00</updated>
-  
-    <id>http://localhost:4000/posts/Chapter0/</id>
-    <content src="http://localhost:4000/posts/Chapter0/" />
-    <author>
-      <name>Shin Mo</name>
-    </author>
-
-  
-    
-    <category term="Python Tutorials" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      Welcome to Python Tutorial!
-
-There are many Human Languages, such as English, Korean, Spanish, Chinese, etc.
-
-Just Like humans, computers also have different languages for communication, such as C/C++, Assembly, Java, JavaScript, and Python.
-
-Why Python?
-
-Interpreter V.S. Compiler
-
-
-
-Computers fundamentally only understand languages written with 0 and 1, often referred to as “Machine Language”....
     </summary>
   
 
