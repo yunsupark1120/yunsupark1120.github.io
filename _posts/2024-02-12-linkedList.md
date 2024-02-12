@@ -1,6 +1,6 @@
 ---
 title: Linked List
-date: 2024-02-09 00:23
+date: 2024-02-12 23:23
 categories: [Programming, Data Structure]
 tags: [algorithm, datastructure, programming, python, list] # TAG names should always be lowercase
 math: true
