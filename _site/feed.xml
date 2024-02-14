@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>Yunsu Blog</title>
   <subtitle>Uploading my study progress</subtitle>
-  <updated>2024-02-12T23:44:37+09:00</updated>
+  <updated>2024-02-14T10:43:29+09:00</updated>
   <author>
     <name>Yunsu Park</name>
     <uri>http://localhost:4000/</uri>
@@ -20,11 +20,144 @@
 
   
   <entry>
+    <title>Searching Algorithms</title>
+    <link href="http://localhost:4000/posts/searching/" rel="alternate" type="text/html" title="Searching Algorithms" />
+    <published>2024-02-14T10:39:00+09:00</published>
+  
+    <updated>2024-02-14T10:39:00+09:00</updated>
+  
+    <id>http://localhost:4000/posts/searching/</id>
+    <content src="http://localhost:4000/posts/searching/" />
+    <author>
+      <name>Yunsu Park</name>
+    </author>
+
+  
+    
+    <category term="Programming" />
+    
+    <category term="Algorithm" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      This is a third post in Algorithm series.
+
+In this post, we'll discuss the algorithms for searching an element in
+an array. There are many searching algorithms, but in this post, I will
+introduce the two most popular algorithms:
+
+
+  Linear Search
+  Binary Search
+
+
+Introduction
+
+Searching is the process of finding a particular element from a
+collection of data. Thanks to the built in functions i...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>Linked List</title>
+    <link href="http://localhost:4000/posts/linkedList/" rel="alternate" type="text/html" title="Linked List" />
+    <published>2024-02-12T23:23:00+09:00</published>
+  
+    <updated>2024-02-13T00:05:33+09:00</updated>
+  
+    <id>http://localhost:4000/posts/linkedList/</id>
+    <content src="http://localhost:4000/posts/linkedList/" />
+    <author>
+      <name>Yunsu Park</name>
+    </author>
+
+  
+    
+    <category term="Programming" />
+    
+    <category term="Data Structure" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      This is a second post in Data Structure series.
+
+Introduction
+
+A linked list is a linear data structure where each element is a separate object.
+A linked list, like an array, can store, add, remove, and search for data. However, an element in a linked list is not stored continuously in memory and does not have an index.
+
+A linked list stores data in node. Each node consist of two parts: data an...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>Array</title>
+    <link href="http://localhost:4000/posts/array/" rel="alternate" type="text/html" title="Array" />
+    <published>2024-02-12T23:23:00+09:00</published>
+  
+    <updated>2024-02-13T00:05:06+09:00</updated>
+  
+    <id>http://localhost:4000/posts/array/</id>
+    <content src="http://localhost:4000/posts/array/" />
+    <author>
+      <name>Yunsu Park</name>
+    </author>
+
+  
+    
+    <category term="Programming" />
+    
+    <category term="Data Structure" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      This is a first post in Data Structure series.
+
+Introduction
+
+An array is a collection of items stored at contiguous memory locations. The idea is to store multiple items of the same type together. This makes it easier to calculate the position of each element by simply adding an offset to a base value, i.e., the memory location of the first element of the array (generally denoted by the name o...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
     <title>Euler's Formula</title>
     <link href="http://localhost:4000/posts/Euler_Eq/" rel="alternate" type="text/html" title="Euler&amp;apos;s Formula" />
     <published>2024-02-11T18:03:00+09:00</published>
   
-    <updated>2024-02-11T21:19:40+09:00</updated>
+    <updated>2024-02-12T00:43:17+09:00</updated>
   
     <id>http://localhost:4000/posts/Euler_Eq/</id>
     <content src="http://localhost:4000/posts/Euler_Eq/" />
@@ -107,135 +240,6 @@ Python Variables
 
 Variables are containers for storing data values.
 Python is a dynamically typed language, which means that you don’t have to decla...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>Linked List</title>
-    <link href="http://localhost:4000/posts/linkedList/" rel="alternate" type="text/html" title="Linked List" />
-    <published>2024-02-09T00:23:00+09:00</published>
-  
-    <updated>2024-02-09T00:23:00+09:00</updated>
-  
-    <id>http://localhost:4000/posts/linkedList/</id>
-    <content src="http://localhost:4000/posts/linkedList/" />
-    <author>
-      <name>Yunsu Park</name>
-    </author>
-
-  
-    
-    <category term="Programming" />
-    
-    <category term="Data Structure" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      This is a second post in Data Structure series.
-
-Introduction
-
-A linked list is a linear data structure where each element is a separate object.
-A linked list, like an array, can store, add, remove, and search for data. However, an element in a linked list is not stored continuously in memory and does not have an index.
-
-A linked list stores data in node. Each node consist of two parts: data an...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>Array</title>
-    <link href="http://localhost:4000/posts/array/" rel="alternate" type="text/html" title="Array" />
-    <published>2024-02-09T00:23:00+09:00</published>
-  
-    <updated>2024-02-09T00:23:00+09:00</updated>
-  
-    <id>http://localhost:4000/posts/array/</id>
-    <content src="http://localhost:4000/posts/array/" />
-    <author>
-      <name>Yunsu Park</name>
-    </author>
-
-  
-    
-    <category term="Programming" />
-    
-    <category term="Data Structure" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      This is a first post in Data Structure series.
-
-Introduction
-
-An array is a collection of items stored at contiguous memory locations. The idea is to store multiple items of the same type together. This makes it easier to calculate the position of each element by simply adding an offset to a base value, i.e., the memory location of the first element of the array (generally denoted by the name o...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>Vector Integral Theorems Summary</title>
-    <link href="http://localhost:4000/posts/MultiIntegrals/" rel="alternate" type="text/html" title="Vector Integral Theorems Summary" />
-    <published>2024-02-09T00:23:00+09:00</published>
-  
-    <updated>2024-02-09T16:30:01+09:00</updated>
-  
-    <id>http://localhost:4000/posts/MultiIntegrals/</id>
-    <content src="http://localhost:4000/posts/MultiIntegrals/" />
-    <author>
-      <name>Yunsu Park</name>
-    </author>
-
-  
-    
-    <category term="Mathematics" />
-    
-    <category term="Calculus" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      Introduction
-
-In this post, I will be introducing the extension of the fundamental theorem of calculus, and the summary of the useful theorems for integrals in vector field: Green’s Theorem, Divergence Theorem, and Stokes’ Theorem
-
-Prerequsites:
-
-
-  Undersatnding in multivariable integrals
-  Understanding in Vector Field
-  Understanding in gradient of multivarible functions
-  Understanding in C...
     </summary>
   
 

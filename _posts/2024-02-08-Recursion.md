@@ -2,7 +2,7 @@
 title: Recursion
 date: 2024-02-08 00:23
 categories: [Programming, Algorithm]
-tags: [algorithm, programming, python] # TAG names should always be lowercase
+tags: [algorithm, programming, python, recursion] # TAG names should always be lowercase
 image: assets/img/algorithm/Background.jpg
 ---
 
