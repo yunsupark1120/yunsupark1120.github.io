@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>Yunsu Blog</title>
   <subtitle>Uploading my study progress</subtitle>
-  <updated>2024-02-14T10:43:29+09:00</updated>
+  <updated>2024-02-14T14:41:47+09:00</updated>
   <author>
     <name>Yunsu Park</name>
     <uri>http://localhost:4000/</uri>
@@ -17,6 +17,50 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>Stacks</title>
+    <link href="http://localhost:4000/posts/stack/" rel="alternate" type="text/html" title="Stacks" />
+    <published>2024-02-14T14:15:00+09:00</published>
+  
+    <updated>2024-02-14T14:15:00+09:00</updated>
+  
+    <id>http://localhost:4000/posts/stack/</id>
+    <content src="http://localhost:4000/posts/stack/" />
+    <author>
+      <name>Yunsu Park</name>
+    </author>
+
+  
+    
+    <category term="Programming" />
+    
+    <category term="Data Structure" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      This is a third post in Data Structure series.
+
+Introduction
+
+A stack is a linear data structure that follows the Last In First Out (LIFO) principle. This means that the last element added to the stack will be the first one to be removed. Since the stack data structure must follow the order of insertion and deletion, it is also classified as a Limited-Acess Data Structure.
+
+Operations
+
+Stacks o...
+    </summary>
+  
+
+  </entry>
 
   
   <entry>
@@ -188,58 +232,6 @@ In this post, I will be introducing one of the most famous formulas in mathemati
 Having completed up to Calculus II is recommended.
 
 Prereq...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>Python Tutorial - Chapter 1</title>
-    <link href="http://localhost:4000/posts/Chapter1/" rel="alternate" type="text/html" title="Python Tutorial - Chapter 1" />
-    <published>2024-02-09T19:15:00+09:00</published>
-  
-    <updated>2024-02-10T23:54:48+09:00</updated>
-  
-    <id>http://localhost:4000/posts/Chapter1/</id>
-    <content src="http://localhost:4000/posts/Chapter1/" />
-    <author>
-      <name>Yunsu Park</name>
-    </author>
-
-  
-    
-    <category term="Python Tutorials" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      Welcome back to Python Tutorial!
-
-Click to download a Jupyter Notebook for this chapter!
-
-Click here to view all tutorial materials
-
-Topics covered in this chapter:
-
-
-  variables
-  data types and operations
-  print() statement
-  input() statement
-
-
-Python Variables
-
-Variables are containers for storing data values.
-Python is a dynamically typed language, which means that you don’t have to decla...
     </summary>
   
 
