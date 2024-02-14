@@ -38,6 +38,7 @@
 <meta property="og:url" content="http://localhost:4000/" />
 <meta property="og:site_name" content="Yunsu Blog" />
 <meta property="og:type" content="website" />
+<link rel="next" href="http://localhost:4000/page2" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Yunsu Blog" />
 <script type="application/ld+json">
@@ -1027,6 +1028,89 @@
 <div id="post-list" class="flex-grow-1 px-xl-1">
   
     <article class="card-wrapper card">
+      <a href="/posts/queue/" class="post-preview row g-0 flex-md-row-reverse">
+        
+
+        
+          
+          
+
+          
+
+          
+
+          
+
+          <div class="col-md-5">
+            <div class="preview-img  shimmer"><img src="/assets/img/DataStructure/Background.jpg" alt="Preview Image"  loading="lazy"></div>
+          </div>
+
+          
+        
+
+        <div class="col-md-7">
+          <div class="card-body d-flex flex-column">
+            <h1 class="card-title my-2 mt-md-0">Queue</h1>
+
+            <div class="card-text content mt-0 mb-3">
+              <p>
+                
+
+
+
+
+
+                This is a fourth post in Data Structure series.
+
+Introduction
+
+A queue is a linear data structure that follows the First In First Out (FIFO) principle. It is similar to a line of people waiting for...
+              </p>
+            </div>
+
+            <div class="post-meta flex-grow-1 d-flex align-items-end">
+              <div class="me-auto">
+                <!-- posted date -->
+                <i class="far fa-calendar fa-fw me-1"></i>
+                <!--
+  Date format snippet
+  See: ${JS_ROOT}/utils/locale-dateime.js
+-->
+
+
+
+
+<time
+  
+  data-ts="1707894000"
+  data-df="ll"
+  
+>
+  Feb 14, 2024
+</time>
+
+
+                <!-- categories -->
+                
+                  <i class="far fa-folder-open fa-fw me-1"></i>
+                  <span class="categories">
+                    
+                      Programming,
+                      Data Structure
+                  </span>
+                
+              </div>
+
+              
+            </div>
+            <!-- .post-meta -->
+          </div>
+          <!-- .card-body -->
+        </div>
+      </a>
+    </article>
+  
+    <article class="card-wrapper card">
       <a href="/posts/stack/" class="post-preview row g-0 flex-md-row-reverse">
         
 
@@ -1772,89 +1856,82 @@ Just Like humans, computers also have different languages for communication, suc
       </a>
     </article>
   
-    <article class="card-wrapper card">
-      <a href="/posts/Recursion/" class="post-preview row g-0 flex-md-row-reverse">
-        
-
-        
-          
-          
-
-          
-
-          
-
-          
-
-          <div class="col-md-5">
-            <div class="preview-img  shimmer"><img src="/assets/img/algorithm/Background.jpg" alt="Preview Image"  loading="lazy"></div>
-          </div>
-
-          
-        
-
-        <div class="col-md-7">
-          <div class="card-body d-flex flex-column">
-            <h1 class="card-title my-2 mt-md-0">Recursion</h1>
-
-            <div class="card-text content mt-0 mb-3">
-              <p>
-                
-
-
-
-
-
-                This is a first post in Algorithm series.
-
-Recursion in algorithms is a method where a problem is solved by breaking it down into smaller instances of the same problem. This approach involves a fun...
-              </p>
-            </div>
-
-            <div class="post-meta flex-grow-1 d-flex align-items-end">
-              <div class="me-auto">
-                <!-- posted date -->
-                <i class="far fa-calendar fa-fw me-1"></i>
-                <!--
-  Date format snippet
-  See: ${JS_ROOT}/utils/locale-dateime.js
--->
-
-
-
-
-<time
-  
-  data-ts="1707319380"
-  data-df="ll"
-  
->
-  Feb  8, 2024
-</time>
-
-
-                <!-- categories -->
-                
-                  <i class="far fa-folder-open fa-fw me-1"></i>
-                  <span class="categories">
-                    
-                      Programming,
-                      Algorithm
-                  </span>
-                
-              </div>
-
-              
-            </div>
-            <!-- .post-meta -->
-          </div>
-          <!-- .card-body -->
-        </div>
-      </a>
-    </article>
-  
 </div>
 <!-- #post-list -->
+
+
+  <!-- The paginator for post list on HomgPage. -->
+
+<nav aria-label="Page Navigation">
+  <ul class="pagination align-items-center mt-4 mb-0">
+    <!-- left arrow -->
+    
+
+    <li class="page-item disabled">
+      <a class="page-link" href="#" aria-label="previous-page">
+        <i class="fas fa-angle-left"></i>
+      </a>
+    </li>
+
+    <!-- page numbers -->
+    
+    
+
+    
+      
+      
+      
+      
+      
+
+      
+
+      
+        <!-- show number -->
+        <li class="page-item  active">
+          <a
+            class="page-link"
+            href="/"
+          >1</a>
+        </li>
+      
+    
+      
+      
+      
+      
+      
+
+      
+
+      
+        <!-- show number -->
+        <li class="page-item ">
+          <a
+            class="page-link"
+            href="/page2"
+          >2</a>
+        </li>
+      
+    
+
+    <!-- mobile pagination -->
+    <li class="page-index align-middle">
+      <span>1</span>
+      <span class="text-muted">/ 2</span>
+    </li>
+
+    <!-- right arrow -->
+    
+
+    <li class="page-item ">
+      <a class="page-link" href="/page2" aria-label="next-page">
+        <i class="fas fa-angle-right"></i>
+      </a>
+    </li>
+  </ul>
+</nav>
+<!-- .pagination -->
 
 
 
@@ -1888,7 +1965,7 @@ Recursion in algorithms is a method where a problem is solved by breaking it dow
         
         
         <li class="text-truncate lh-lg">
-          <a href="/posts/Euler_Eq/">Euler's Formula</a>
+          <a href="/posts/queue/">Queue</a>
         </li>
       
         
@@ -1896,6 +1973,13 @@ Recursion in algorithms is a method where a problem is solved by breaking it dow
         
         <li class="text-truncate lh-lg">
           <a href="/posts/stack/">Stacks</a>
+        </li>
+      
+        
+        
+        
+        <li class="text-truncate lh-lg">
+          <a href="/posts/Euler_Eq/">Euler's Formula</a>
         </li>
       
         
@@ -1910,13 +1994,6 @@ Recursion in algorithms is a method where a problem is solved by breaking it dow
         
         <li class="text-truncate lh-lg">
           <a href="/posts/searching/">Searching Algorithms</a>
-        </li>
-      
-        
-        
-        
-        <li class="text-truncate lh-lg">
-          <a href="/posts/linkedList/">Linked List</a>
         </li>
       
     </ul>
@@ -2094,22 +2171,6 @@ Recursion in algorithms is a method where a problem is solved by breaking it dow
     
     
     
-      
-        
-        
-
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-      
-    
   
     
     
@@ -2138,8 +2199,6 @@ Recursion in algorithms is a method where a problem is solved by breaking it dow
     
     
     
-    
-      
     
   
     
@@ -2193,34 +2252,9 @@ Recursion in algorithms is a method where a problem is solved by breaking it dow
     
     
       
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-      
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
+        
+        
+
   
     
     
@@ -2232,6 +2266,41 @@ Recursion in algorithms is a method where a problem is solved by breaking it dow
     
     
       
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
     
   
     
@@ -2377,13 +2446,13 @@ Recursion in algorithms is a method where a problem is solved by breaking it dow
         <a class="post-tag btn btn-outline-primary" href="/tags/programming/">programming</a>
       
         
-        <a class="post-tag btn btn-outline-primary" href="/tags/c/">c++</a>
-      
-        
         <a class="post-tag btn btn-outline-primary" href="/tags/datastructure/">datastructure</a>
       
         
         <a class="post-tag btn btn-outline-primary" href="/tags/list/">list</a>
+      
+        
+        <a class="post-tag btn btn-outline-primary" href="/tags/c/">c++</a>
       
         
         <a class="post-tag btn btn-outline-primary" href="/tags/math/">math</a>
@@ -2619,22 +2688,6 @@ Recursion in algorithms is a method where a problem is solved by breaking it dow
     
     
     
-      
-        
-        
-
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-      
-    
   
     
     
@@ -2663,8 +2716,6 @@ Recursion in algorithms is a method where a problem is solved by breaking it dow
     
     
     
-    
-      
     
   
     
@@ -2718,34 +2769,9 @@ Recursion in algorithms is a method where a problem is solved by breaking it dow
     
     
       
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-      
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
+        
+        
+
   
     
     
@@ -2757,6 +2783,41 @@ Recursion in algorithms is a method where a problem is solved by breaking it dow
     
     
       
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
     
   
     
@@ -2902,13 +2963,13 @@ Recursion in algorithms is a method where a problem is solved by breaking it dow
         <a class="post-tag btn btn-outline-primary" href="/tags/programming/">programming</a>
       
         
-        <a class="post-tag btn btn-outline-primary" href="/tags/c/">c++</a>
-      
-        
         <a class="post-tag btn btn-outline-primary" href="/tags/datastructure/">datastructure</a>
       
         
         <a class="post-tag btn btn-outline-primary" href="/tags/list/">list</a>
+      
+        
+        <a class="post-tag btn btn-outline-primary" href="/tags/c/">c++</a>
       
         
         <a class="post-tag btn btn-outline-primary" href="/tags/math/">math</a>

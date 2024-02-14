@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>Yunsu Blog</title>
   <subtitle>Uploading my study progress</subtitle>
-  <updated>2024-02-14T14:42:20+09:00</updated>
+  <updated>2024-02-14T16:04:50+09:00</updated>
   <author>
     <name>Yunsu Park</name>
     <uri>http://localhost:4000/</uri>
@@ -20,11 +20,51 @@
 
   
   <entry>
+    <title>Queue</title>
+    <link href="http://localhost:4000/posts/queue/" rel="alternate" type="text/html" title="Queue" />
+    <published>2024-02-14T16:00:00+09:00</published>
+  
+    <updated>2024-02-14T16:00:00+09:00</updated>
+  
+    <id>http://localhost:4000/posts/queue/</id>
+    <content src="http://localhost:4000/posts/queue/" />
+    <author>
+      <name>Yunsu Park</name>
+    </author>
+
+  
+    
+    <category term="Programming" />
+    
+    <category term="Data Structure" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      This is a fourth post in Data Structure series.
+
+Introduction
+
+A queue is a linear data structure that follows the First In First Out (FIFO) principle. It is similar to a line of people waiting for a bus. The person who comes first will get into the bus first. Just like Stacks, Queue is considered a Limited-Access Data Structure. Queue is a similar Abstract Data Type (ADT) to stack, with only d...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
     <title>Stacks</title>
     <link href="http://localhost:4000/posts/stack/" rel="alternate" type="text/html" title="Stacks" />
     <published>2024-02-14T14:15:00+09:00</published>
   
-    <updated>2024-02-14T14:15:00+09:00</updated>
+    <updated>2024-02-14T15:08:48+09:00</updated>
   
     <id>http://localhost:4000/posts/stack/</id>
     <content src="http://localhost:4000/posts/stack/" />
@@ -52,11 +92,11 @@
 
 Introduction
 
-A stack is a linear data structure that follows the Last In First Out (LIFO) principle. This means that the last element added to the stack will be the first one to be removed. Since the stack data structure must follow the order of insertion and deletion, it is also classified as a Limited-Acess Data Structure.
+A stack is a linear data structure that follows the Last In First Out (LIFO) principle. This means that the last element added to the stack will be the first one to be removed. Since the stack data structure must follow the order of insertion and deletion, it is also classified as a Limited-Access Data Structure.
 
 Operations
 
-Stacks o...
+Stacks ...
     </summary>
   
 
@@ -190,48 +230,6 @@ A linked list stores data in node. Each node consist of two parts: data an...
 Introduction
 
 An array is a collection of items stored at contiguous memory locations. The idea is to store multiple items of the same type together. This makes it easier to calculate the position of each element by simply adding an offset to a base value, i.e., the memory location of the first element of the array (generally denoted by the name o...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>Euler's Formula</title>
-    <link href="http://localhost:4000/posts/Euler_Eq/" rel="alternate" type="text/html" title="Euler&amp;apos;s Formula" />
-    <published>2024-02-11T18:03:00+09:00</published>
-  
-    <updated>2024-02-14T14:42:20+09:00</updated>
-  
-    <id>http://localhost:4000/posts/Euler_Eq/</id>
-    <content src="http://localhost:4000/posts/Euler_Eq/" />
-    <author>
-      <name>Yunsu Park</name>
-    </author>
-
-  
-    
-    <category term="Mathematics" />
-    
-    <category term="Calculus" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      Introduction
-
-In this post, I will be introducing one of the most famous formulas in mathematics, Euler’s Formula. Euler’s Formula is a mathematical formula that establishes the fundamental relationship between the trigonometric functions and the complex exponential function. It is often cited as an example of deep mathematical beauty.
-
-Having completed up to Calculus II is recommended.
-
-Prereq...
     </summary>
   
 
