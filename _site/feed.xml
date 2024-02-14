@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>Yunsu Blog</title>
   <subtitle>Uploading my study progress</subtitle>
-  <updated>2024-02-14T14:41:47+09:00</updated>
+  <updated>2024-02-14T14:42:20+09:00</updated>
   <author>
     <name>Yunsu Park</name>
     <uri>http://localhost:4000/</uri>
@@ -201,7 +201,7 @@ An array is a collection of items stored at contiguous memory locations. The ide
     <link href="http://localhost:4000/posts/Euler_Eq/" rel="alternate" type="text/html" title="Euler&amp;apos;s Formula" />
     <published>2024-02-11T18:03:00+09:00</published>
   
-    <updated>2024-02-12T00:43:17+09:00</updated>
+    <updated>2024-02-14T14:42:20+09:00</updated>
   
     <id>http://localhost:4000/posts/Euler_Eq/</id>
     <content src="http://localhost:4000/posts/Euler_Eq/" />
