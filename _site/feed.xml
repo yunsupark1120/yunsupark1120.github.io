@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>Yunsu Blog</title>
   <subtitle>Uploading my study progress</subtitle>
-  <updated>2024-02-14T16:04:50+09:00</updated>
+  <updated>2024-02-15T13:07:58+09:00</updated>
   <author>
     <name>Yunsu Park</name>
     <uri>http://localhost:4000/</uri>
@@ -17,6 +17,46 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>Hash Table</title>
+    <link href="http://localhost:4000/posts/HashTable/" rel="alternate" type="text/html" title="Hash Table" />
+    <published>2024-02-15T12:03:00+09:00</published>
+  
+    <updated>2024-02-15T12:03:00+09:00</updated>
+  
+    <id>http://localhost:4000/posts/HashTable/</id>
+    <content src="http://localhost:4000/posts/HashTable/" />
+    <author>
+      <name>Yunsu Park</name>
+    </author>
+
+  
+    
+    <category term="Programming" />
+    
+    <category term="Data Structure" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      This is a fifth post in Data Structure series.
+
+Introduction
+
+Associate Array is an abstract data type that stores a value with a key associated with it. In a simpler term, it is a collection of Key-Value Pairs. The key is used to access the elements in the collection. The key is mapped to a value, and the value can be retrieved by providing the key. The key is unique, and it is used to identif...
+    </summary>
+  
+
+  </entry>
 
   
   <entry>
@@ -190,46 +230,6 @@ A linked list is a linear data structure where each element is a separate object
 A linked list, like an array, can store, add, remove, and search for data. However, an element in a linked list is not stored continuously in memory and does not have an index.
 
 A linked list stores data in node. Each node consist of two parts: data an...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>Array</title>
-    <link href="http://localhost:4000/posts/array/" rel="alternate" type="text/html" title="Array" />
-    <published>2024-02-12T23:23:00+09:00</published>
-  
-    <updated>2024-02-13T00:05:06+09:00</updated>
-  
-    <id>http://localhost:4000/posts/array/</id>
-    <content src="http://localhost:4000/posts/array/" />
-    <author>
-      <name>Yunsu Park</name>
-    </author>
-
-  
-    
-    <category term="Programming" />
-    
-    <category term="Data Structure" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      This is a first post in Data Structure series.
-
-Introduction
-
-An array is a collection of items stored at contiguous memory locations. The idea is to store multiple items of the same type together. This makes it easier to calculate the position of each element by simply adding an offset to a base value, i.e., the memory location of the first element of the array (generally denoted by the name o...
     </summary>
   
 
