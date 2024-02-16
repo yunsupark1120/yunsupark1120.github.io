@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>Yunsu Blog</title>
   <subtitle>Uploading my study progress</subtitle>
-  <updated>2024-02-15T13:07:58+09:00</updated>
+  <updated>2024-02-16T14:27:53+09:00</updated>
   <author>
     <name>Yunsu Park</name>
     <uri>http://localhost:4000/</uri>
@@ -17,6 +17,46 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>Sorting Algorithms (Part 1)</title>
+    <link href="http://localhost:4000/posts/sorting1/" rel="alternate" type="text/html" title="Sorting Algorithms (Part 1)" />
+    <published>2024-02-16T14:16:00+09:00</published>
+  
+    <updated>2024-02-16T14:16:00+09:00</updated>
+  
+    <id>http://localhost:4000/posts/sorting1/</id>
+    <content src="http://localhost:4000/posts/sorting1/" />
+    <author>
+      <name>Yunsu Park</name>
+    </author>
+
+  
+    
+    <category term="Programming" />
+    
+    <category term="Algorithm" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      This is a third post in Algorithm series.
+
+Introduction
+
+Sorting is the process of arranging a collection of data in a particular order. The most common orders are numerical order and lexicographical order. Sorting is a fundamental operation in computer science and is used in many applications. For example, sorting is used to organize data for efficient searching, to prepare data for presentati...
+    </summary>
+  
+
+  </entry>
 
   
   <entry>
@@ -187,49 +227,6 @@ Introduction
 
 Searching is the process of finding a particular element from a
 collection of data. Thanks to the built in functions i...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>Linked List</title>
-    <link href="http://localhost:4000/posts/linkedList/" rel="alternate" type="text/html" title="Linked List" />
-    <published>2024-02-12T23:23:00+09:00</published>
-  
-    <updated>2024-02-13T00:05:33+09:00</updated>
-  
-    <id>http://localhost:4000/posts/linkedList/</id>
-    <content src="http://localhost:4000/posts/linkedList/" />
-    <author>
-      <name>Yunsu Park</name>
-    </author>
-
-  
-    
-    <category term="Programming" />
-    
-    <category term="Data Structure" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      This is a second post in Data Structure series.
-
-Introduction
-
-A linked list is a linear data structure where each element is a separate object.
-A linked list, like an array, can store, add, remove, and search for data. However, an element in a linked list is not stored continuously in memory and does not have an index.
-
-A linked list stores data in node. Each node consist of two parts: data an...
     </summary>
   
 
