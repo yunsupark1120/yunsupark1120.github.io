@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>Yunsu Blog</title>
   <subtitle>Uploading my study progress</subtitle>
-  <updated>2024-03-04T01:00:02+09:00</updated>
+  <updated>2024-03-04T01:01:36+09:00</updated>
   <author>
     <name>Yunsu Park</name>
     <uri>http://localhost:4000/</uri>
@@ -46,7 +46,7 @@
 
 
 
-      Welcom back to Python Tutorial!
+      Welcome back to Python Tutorial!
 
 Topics covered in this chapter:
 
@@ -59,7 +59,7 @@ Topics covered in this chapter:
 
 So far, we have seen the following data types in Python, int, float, str, bool. These data types are used to store a single value. But what if we want to store multiple values in a single variable? This is where Python list comes in.
 
-There are four built-in data types in Python that can be us...
+There are four built-in data types in Python that can be u...
     </summary>
   
 
