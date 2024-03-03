@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>Yunsu Blog</title>
   <subtitle>Uploading my study progress</subtitle>
-  <updated>2024-02-16T14:27:53+09:00</updated>
+  <updated>2024-03-04T00:59:21+09:00</updated>
   <author>
     <name>Yunsu Park</name>
     <uri>http://localhost:4000/</uri>
@@ -20,11 +20,58 @@
 
   
   <entry>
+    <title>Python Tutorial - Chapter 2</title>
+    <link href="http://localhost:4000/posts/Chapter2/" rel="alternate" type="text/html" title="Python Tutorial - Chapter 2" />
+    <published>2024-03-04T00:40:00+09:00</published>
+  
+    <updated>2024-03-04T00:40:00+09:00</updated>
+  
+    <id>http://localhost:4000/posts/Chapter2/</id>
+    <content src="http://localhost:4000/posts/Chapter2/" />
+    <author>
+      <name>Yunsu Park</name>
+    </author>
+
+  
+    
+    <category term="Python Tutorials" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      Welcom back to Python Tutorial!
+
+Topics covered in this chapter:
+
+
+  list
+  tuple
+  set
+  dictionary
+
+
+So far, we have seen the following data types in Python, int, float, str, bool. These data types are used to store a single value. But what if we want to store multiple values in a single variable? This is where Python list comes in.
+
+There are four built-in data types in Python that can be us...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
     <title>Sorting Algorithms (Part 1)</title>
     <link href="http://localhost:4000/posts/sorting1/" rel="alternate" type="text/html" title="Sorting Algorithms (Part 1)" />
     <published>2024-02-16T14:16:00+09:00</published>
   
-    <updated>2024-02-16T14:16:00+09:00</updated>
+    <updated>2024-02-16T14:28:17+09:00</updated>
   
     <id>http://localhost:4000/posts/sorting1/</id>
     <content src="http://localhost:4000/posts/sorting1/" />
@@ -48,11 +95,11 @@
 
 
 
-      This is a third post in Algorithm series.
+      This is a fourth post in Algorithm series.
 
 Introduction
 
-Sorting is the process of arranging a collection of data in a particular order. The most common orders are numerical order and lexicographical order. Sorting is a fundamental operation in computer science and is used in many applications. For example, sorting is used to organize data for efficient searching, to prepare data for presentati...
+Sorting is the process of arranging a collection of data in a particular order. The most common orders are numerical order and lexicographical order. Sorting is a fundamental operation in computer science and is used in many applications. For example, sorting is used to organize data for efficient searching, to prepare data for presentat...
     </summary>
   
 
@@ -177,56 +224,6 @@ A stack is a linear data structure that follows the Last In First Out (LIFO) pri
 Operations
 
 Stacks ...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>Searching Algorithms</title>
-    <link href="http://localhost:4000/posts/searching/" rel="alternate" type="text/html" title="Searching Algorithms" />
-    <published>2024-02-14T10:39:00+09:00</published>
-  
-    <updated>2024-02-14T10:39:00+09:00</updated>
-  
-    <id>http://localhost:4000/posts/searching/</id>
-    <content src="http://localhost:4000/posts/searching/" />
-    <author>
-      <name>Yunsu Park</name>
-    </author>
-
-  
-    
-    <category term="Programming" />
-    
-    <category term="Algorithm" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      This is a third post in Algorithm series.
-
-In this post, we'll discuss the algorithms for searching an element in
-an array. There are many searching algorithms, but in this post, I will
-introduce the two most popular algorithms:
-
-
-  Linear Search
-  Binary Search
-
-
-Introduction
-
-Searching is the process of finding a particular element from a
-collection of data. Thanks to the built in functions i...
     </summary>
   
 
