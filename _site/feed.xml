@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>Yunsu Blog</title>
   <subtitle>Uploading my study progress</subtitle>
-  <updated>2024-03-04T01:01:36+09:00</updated>
+  <updated>2024-03-04T16:32:13+09:00</updated>
   <author>
     <name>Yunsu Park</name>
     <uri>http://localhost:4000/</uri>
@@ -20,11 +20,49 @@
 
   
   <entry>
+    <title>Feynman's Trick</title>
+    <link href="http://localhost:4000/posts/Feynman_trick/" rel="alternate" type="text/html" title="Feynman&amp;apos;s Trick" />
+    <published>2024-03-04T15:42:00+09:00</published>
+  
+    <updated>2024-03-04T15:42:00+09:00</updated>
+  
+    <id>http://localhost:4000/posts/Feynman_trick/</id>
+    <content src="http://localhost:4000/posts/Feynman_trick/" />
+    <author>
+      <name>Yunsu Park</name>
+    </author>
+
+  
+    
+    <category term="Mathematics" />
+    
+    <category term="Calculus" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      Introduction
+
+Richard Feynman was a theoretical physicist known for his work in the path integral formulation of quantum mechanics, the theory of quantum electrodynamics, physics of the superfluidity of supercooled liquid helium, and more. His was not only a significant contributor to the field of physics, he also made numerous contribution to the field of mathematics. In this post, I will be i...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
     <title>Python Tutorial - Chapter 2</title>
     <link href="http://localhost:4000/posts/Chapter2/" rel="alternate" type="text/html" title="Python Tutorial - Chapter 2" />
     <published>2024-03-04T00:40:00+09:00</published>
   
-    <updated>2024-03-04T00:40:00+09:00</updated>
+    <updated>2024-03-04T01:01:46+09:00</updated>
   
     <id>http://localhost:4000/posts/Chapter2/</id>
     <content src="http://localhost:4000/posts/Chapter2/" />
@@ -180,50 +218,6 @@ Associate Array is an abstract data type that stores a value with a key associat
 Introduction
 
 A queue is a linear data structure that follows the First In First Out (FIFO) principle. It is similar to a line of people waiting for a bus. The person who comes first will get into the bus first. Just like Stacks, Queue is considered a Limited-Access Data Structure. Queue is a similar Abstract Data Type (ADT) to stack, with only d...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>Stacks</title>
-    <link href="http://localhost:4000/posts/stack/" rel="alternate" type="text/html" title="Stacks" />
-    <published>2024-02-14T14:15:00+09:00</published>
-  
-    <updated>2024-02-14T15:08:48+09:00</updated>
-  
-    <id>http://localhost:4000/posts/stack/</id>
-    <content src="http://localhost:4000/posts/stack/" />
-    <author>
-      <name>Yunsu Park</name>
-    </author>
-
-  
-    
-    <category term="Programming" />
-    
-    <category term="Data Structure" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      This is a third post in Data Structure series.
-
-Introduction
-
-A stack is a linear data structure that follows the Last In First Out (LIFO) principle. This means that the last element added to the stack will be the first one to be removed. Since the stack data structure must follow the order of insertion and deletion, it is also classified as a Limited-Access Data Structure.
-
-Operations
-
-Stacks ...
     </summary>
   
 
