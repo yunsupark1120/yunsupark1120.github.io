@@ -20,7 +20,7 @@ Prerequisities:
 
 ## Differentiating under the integral sign
 
-If $ f(t,x) $ and $ \frac{\partial f}{\partial t} $ are continuous with respect to both variables over the $ [a, b] $ interval, then
+If $ f(t,x) $ and if the partial derivatives of $ f(t,x) $ with respect to both variables are continuous over the $ [a, b] $ interval, then
 
 $$
 \frac{d}{dx} \int_a^b f(t,x) dt = \int_a^b \frac{\partial f}{\partial x} dt
